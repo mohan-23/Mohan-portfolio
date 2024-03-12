@@ -1,0 +1,25 @@
+.element {
+  animation-name: float;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  border-radius: 600px;
+  height: 350px;
+  width: 350px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: orange;
+  
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
