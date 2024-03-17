@@ -1,6 +1,6 @@
 import React from "react";
 import Photo from "../Assets/photo.png";
-import Resume from "../Assets/MohanCanva.pdf";
+import Resume from "../Assets/MohanCanva1.pdf";
 import { Styles } from "../Utils/Style";
 import { TiArrowDownOutline } from "react-icons/ti";
 import "../App.css";
