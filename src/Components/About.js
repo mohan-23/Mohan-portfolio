@@ -16,7 +16,7 @@ const About = () => {
           Hi, I'm <span className="text-orange-600">Mohan</span>
           <br />
           <span className={Styles.heroSubText}>
-            I am a Full Stack Developer & <br /> Web Developer / Backend
+            I am a Full Stack Developer & <br /> Web Developer & Backend
             Developer
           </span>
         </span>
