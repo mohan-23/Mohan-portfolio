@@ -1,6 +1,6 @@
 import React from "react";
 import Photo from "../Assets/photo.png";
-import Resume from "../Assets/MohanResumeNew.pdf";
+import Resume from "../Assets/Resume.pdf";
 import { Styles } from "../Utils/Style";
 import { TiArrowDownOutline } from "react-icons/ti";
 import "../App.css";
