@@ -11,8 +11,9 @@ import python from "../Assets/python.png";
 import sql from "../Assets/sql.png";
 import git from "../Assets/git.png";
 import trends from "../Assets/trends.png";
-import todo from "../Assets/todo.png";
+//import todo from "../Assets/todo.png";
 import Food from "../Assets/food.png";
+import food_del from "../Assets/food_del.png";
 
 const services = [
   {
@@ -70,9 +71,9 @@ const technologies = [
 
 const projects = [
   {
-    name: "Nxt Trends",
+    name: "Food Delivery App",
     description:
-      "Implemented Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart where users can login and can see list of products with search, filters, sort by, etc..",
+      "Implemented Food Delivery application which is a clone for Food applications like Swiggy, Zomato. This is a Full-Stack application. Developed login authentication and authorization and implemented MongoDB storage for adding, removing and get the food list items using API’s.",
 
     tags: [
       {
@@ -87,32 +88,36 @@ const projects = [
         name: "React Js",
         color: "blue-text-gradient",
       },
+      {
+        name: "Node Js",
+        color: "blue-text-gradient",
+      },
     ],
-    image: trends,
-    source_code_link: "https://github.com/mohan-23/mohannxttrendz-app",
-    source_diploy_link: "https://mohanknxttrendz.ccbp.tech/",
+    image: food_del,
+    source_code_link: "https://github.com/mohan-23/mohan-food-delivery-app",
+    source_diploy_link: "https://mohan-food-delivery-app.onrender.com/",
   },
   {
-    name: "Todo App",
+    name: "Nxt Trends",
     description:
-      "Web application that enables users to manage their daily tasks and to manage the time efficiently and Developed persistent todo application with CRUD operations to track list of tasks.",
+      "Implemented Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart where users can login and can see list of products with search, filters, sort by, etc..",
     tags: [
       {
         name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "React JS",
         color: "pink-text-gradient",
       },
     ],
-    image: todo,
-    source_code_link: "https://github.com/mohan-23/Mohan-todo-app",
-    source_diploy_link: "https://todoaddtask.ccbp.tech",
+    image: trends,
+    source_code_link: "https://github.com/mohan-23/mohannxttrendz-app",
+    source_diploy_link: "https://mohanknxttrendz.ccbp.tech/",
   },
   {
     name: "Food Munch",
