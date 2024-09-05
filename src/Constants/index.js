@@ -73,7 +73,7 @@ const projects = [
   {
     name: "Food Delivery App",
     description:
-      "Implemented Food Delivery application which is a clone for Food applications like Swiggy, Zomato. This is a Full-Stack application. Developed login authentication and authorization and implemented MongoDB storage for adding, removing and get the food list items using API’s.",
+      "Implemented Food Delivery application which is a clone for Food applications like Swiggy, Zomato. This is a Full-Stack application. Developed login authentication and authorization and implemented MongoDB storage for see the food list items using API’s.",
 
     tags: [
       {
